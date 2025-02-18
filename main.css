@@ -76,7 +76,8 @@ h2 {
 
 .produtos li {
     width: 23.5%;
-    height: 29rem;
+    min-height: 30rem;
+    height: auto;
     list-style: none;
     padding: 1%;
     position: relative;
@@ -97,19 +98,18 @@ h2 {
 
 .produtos li h2 {
     max-width: 96%;
+    height: 7rem;
     padding-top: 1.5rem;
     border-top: 1px solid rgba(0, 0, 0, 0.253);
 }
 
 .produtos li p {
     max-width: 96%;
-    position: absolute;
-    left: 4%;
-    right: 4%;
-    bottom: 5rem;
+    height: 4rem;
 }
 
 .produtos button {
+    padding-top: 1rem;
     width: 91%;
     position: absolute;
     bottom: 0.5rem;
